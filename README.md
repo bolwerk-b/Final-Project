@@ -39,6 +39,9 @@ All communications for this project were done via Slack and Zoom.
 
 ### Work completed for week 1: 
 Ben - Created Repository, communications protocol, Questions to answer, ETL/data cleaning
+
 Digamber - Created Data Model outline, Questions to answer
+
 Lydia - Provided data sources and descriptions , Questions to answer
+
 Kelsey - Created Database outline, Questions to answer
