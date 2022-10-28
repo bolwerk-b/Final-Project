@@ -21,6 +21,24 @@ which region has the lowest cost increase?
 How does the price correlate with the top and bottom 50 GDP’s?
 
 ## Sources:
-GDP Data: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-Big Mac Data: https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice?select=BigmacPrice.csv
-Region(continent) Data: https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region
+[GDP Data (1960-2016)](https://www.kaggle.com/datasets/jonscheaffer/worldwide-gdp-history-19602016)
+[GDP Data (1960-2020)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
+
+Used to track historically GDP of Nations.
+
+[Big Mac Data(2000-2022)](https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice?select=BigmacPrice.csv)
+
+Used to track the cost of the Big Mac in each country over time.
+
+[Region(continent) Data](https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region)
+
+Used to correlate contries to their region/continent.
+
+## Communications
+All communications for this project were done via Slack and Zoom.
+
+### Work completed for week 1: 
+Ben - Created Repository, communications protocol, Questions to answer, ETL/data cleaning
+Digamber - Created Data Model outline, Questions to answer
+Lydia - Provided data sources and descriptions , Questions to answer
+Kelsey - Created Database outline, Questions to answer
