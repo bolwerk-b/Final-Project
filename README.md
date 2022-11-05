@@ -40,7 +40,9 @@ All communications for this project were done via Slack and Zoom.
 ### Database
 
 ### Machine Learning
-These two files have a preliminary code that uses our database
+These two files have a preliminary code that uses our database. The first file uses raw GDP and the second uses log10(GDP) as the independant variable 
+
+https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_raw_GDP.ipynb
 
 https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_GDP_log10.ipynb
 
