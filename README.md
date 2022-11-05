@@ -40,6 +40,11 @@ All communications for this project were done via Slack and Zoom.
 ### Database
 
 ### Machine Learning
+These two files have a preliminary code that uses our database
+
+https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_GDP_log10.ipynb
+
+
 1. Description of preliminary data preprocessing.
 
 Data clean up and preprocessing was done in Jupyter notebook using Pandas. We investigating coorelation between BigMac prices and GDP's. There were two csv files used for the preprocessing one having the prices of BigMac as one of the columns and the other having GDP as a column. The two file were merged to contain data from 2000-2016, and data cleanup done to yield a finalized dataset (Final_Merged_CSV.csv).
