@@ -38,6 +38,12 @@ Used to correlate contries to their region/continent.
 All communications for this project were done via Slack and Zoom.
 
 ### Database
+We created a local database application to store our data utilizing pgAdmin, SQL, and Python.
+
+After loading our data into pgAdmin, we were able to use SQL to link our data to our local database.
+
+![price](https://user-images.githubusercontent.com/107373721/200097569-1b15c384-9c29-4f5b-82f1-2727b16f0b56.png)
+
 
 ### Machine Learning
 These two files have a preliminary code that uses our database. The first file uses raw GDP and the second uses log10(GDP) as the independant variable 
