@@ -44,7 +44,7 @@ These two files have a preliminary code that uses our database. The first file u
 
 [ML code using raw GDP](https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_raw_GDP.ipynb)
 
-https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_GDP_log10.ipynb
+[ML code using log10(GDP)](https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_GDP_log10.ipynb)
 
 
 1. Description of preliminary data preprocessing.
