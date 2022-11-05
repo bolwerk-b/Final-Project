@@ -1,6 +1,6 @@
 # Final-Project
 
-## Purpose Of The Project:
+### Purpose Of The Project:
 The purpose of this project is to create an overview of the cost of a big mac from McDonalds and match that data against annual GDP of Nations to see if there is a correlation. The project will consist of two elements:
 
 1. Regional Dashboard: Dashboard will provide a summary of each nations cost of a big mac vs. GDP.
@@ -20,7 +20,7 @@ which region has the lowest cost increase?
 
 How does the price correlate with the top and bottom 50 GDP’s?
 
-## Sources:
+### Sources:
 [GDP Data (1960-2016)](https://www.kaggle.com/datasets/jonscheaffer/worldwide-gdp-history-19602016)
 [GDP Data (1960-2020)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
 
@@ -34,21 +34,12 @@ Used to track the cost of the Big Mac in each country over time.
 
 Used to correlate contries to their region/continent.
 
-## Communications
+### Communications
 All communications for this project were done via Slack and Zoom.
 
-### Work completed for week 1: 
-Ben - Created Repository, communications protocol, Questions to answer, ETL/data cleaning
+### Database
 
-Digamber - Created Data Model outline, Questions to answer
-
-Lydia - Provided data sources and descriptions , Questions to answer
-
-Kelsey - Created Database outline, Questions to answer
-
-### Week2
-
-# Machine Learning
+### Machine Learning
 1. Description of preliminary data preprocessing.
 
 Data clean up and preprocessing was done in Jupyter notebook using Pandas. We investigating coorelation between BigMac prices and GDP's. There were two csv files used for the preprocessing one having the prices of BigMac as one of the columns and the other having GDP as a column. The two file were merged to contain data from 2000-2016, and data cleanup done to yield a finalized dataset (Final_Merged_CSV.csv).
@@ -68,3 +59,15 @@ We used the Sklearn train_test_split function to split the data 80:20 for traini
 For machine learning Linear Regression would be our first choice as, both the target and the independant feature are continous. This is the simplest model and a good first choice. However there is a possibility that our gobal dataset may not be ideal for a linear analysis.
 We have also considered 2nd order polynomial, and this may be a slightly better choice if the BigMac price and GDP's do not follow a linear trend. The model may be overfitting the data which could be a pitfall. 
 Another consideration is the RandonForest Regression model. This model may have the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. May help address the issue of overfitting with the 2nd order polynomial and may accomodate and outliers in our dataset.  
+
+
+### Dashboard
+
+In our Dashboard we will be highlighting Two Key Items:
+1. Country Big Mac price(by Year)
+2. Country GDP (by Year)
+
+Dashboard outline: [storyboard](https://docs.google.com/presentation/d/1OWhGaB8OzmPcQ8QowJzmXAlEXA2OyeFz4E1aONp65aU/edit?usp=sharing)
+
+### Tasks Completed
+To view what tasks were completed for the week, please refer to [task_completed_list](task_completed_list.docx)
