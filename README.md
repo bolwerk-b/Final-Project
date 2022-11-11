@@ -1,4 +1,4 @@
-# Final-Project
+# Final-Project.
 
 **Presentation:** <a href= "https://docs.google.com/presentation/d/1cd-4GkkITFEI98uPthiW-l5D1tL2eT2MpLtqE6v5fKk/edit?usp=sharing">Here is our final presentation.</a>
 
