@@ -1,4 +1,6 @@
-# Final-Project
+# Final-Project.
+
+**Presentation:** <a href= "https://docs.google.com/presentation/d/1cd-4GkkITFEI98uPthiW-l5D1tL2eT2MpLtqE6v5fKk/edit?usp=sharing">Here is our final presentation.</a>
 
 ## Purpose Of The Project:
 The purpose of this project is to create an overview of the cost of a big mac from McDonalds and match that data against annual GDP of Nations to see if there is a correlation. The project will consist of two elements:
@@ -43,12 +45,11 @@ After loading our data into pgAdmin, we were able to use SQL to link our data to
 ![price](https://user-images.githubusercontent.com/107373721/200097569-1b15c384-9c29-4f5b-82f1-2727b16f0b56.png)
 
 
-## Machine Learning
-These two files have a preliminary code that uses our database. The first file uses raw GDP and the second uses log10(GDP) as the independant variable 
+### Machine Learning
+The final Machine Learning code is included in the "machine learning" folder
 
-[ML code using raw GDP](https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_raw_GDP.ipynb)
+[Machine_Learning_Final](https://github.com/bolwerk-b/Final-Project/blob/digamber-code/machine%20learning/Machine_Learning_models-final.ipynb)
 
-[ML code using log10(GDP)](https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_GDP_log10.ipynb)
 
 
 1. Description of preliminary data preprocessing.
@@ -57,9 +58,15 @@ Data clean up and preprocessing was done in Jupyter notebook using Pandas. We in
 
 2. Description of preliminary feature engineering and preliminary feature selection, including the decision-making process.
 
-Feature selection: Using the finalized dataset we chose the GDP as the independant feature and dollar_price as the target
+Feature selection: 
 
-Feature engineering & decision-making process: We converted the GDP column into log10(GDP) as the raw values of GDP ranged from several 100 billion to several trillion USD. Converting into log10 makes the data more manageable. However, we do intent to keep the raw values of GDP through our preliminary round investigation. Other features that will be considered are gdp_growth, GDP_Per_Capita, geographical region and geographical sub_region.
+Using the finalized dataset we chose the GDP as the independant feature and dollar_price as the target for the Linear Regression model. For the RandomForest Regression we included "year", "gdp_growth", "GDP_Per_Capita", and "GDP" as features and "dollar_price" as the target 
+
+Feature engineering & decision-making process: 
+
+We converted the GDP column into log10(GDP) as the raw values of GDP ranged from several 100 billion to several trillion USD. Converting into log10 makes the data more manageable. However, we do intent to keep the raw values of GDP through our preliminary round investigation. Other numerical features such as gdp_growth, GDP_Per_Capita, and year were retained for RandomForest Regression. Feature that were strings such as geographical region and geographical sub_region were dropped for RandomForest Regression analysis.
+
+We have also split the dataset into subset by regions and further sub-divided the regions into countries. Cursory investigation indicated that two different regresion models can be applied to different subset of the  based on accuracy. 
 
 3. Description of how data was split into training and testing set. 
 
@@ -68,8 +75,13 @@ We used the Sklearn train_test_split function to split the data 80:20 for traini
 4. Explanation of model choice, including limitations and benefits
 
 For machine learning Linear Regression would be our first choice as, both the target and the independant feature are continous. This is the simplest model and a good first choice. However there is a possibility that our gobal dataset may not be ideal for a linear analysis.
-We have also considered 2nd order polynomial, and this may be a slightly better choice if the BigMac price and GDP's do not follow a linear trend. The model may be overfitting the data which could be a pitfall. 
-Another consideration is the RandonForest Regression model. This model may have the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. May help address the issue of overfitting with the 2nd order polynomial and may accomodate and outliers in our dataset.  
+We experimented with 2nd order polynomial, and this would have been a slightly better choice if the BigMac price and GDP's do not follow a linear trend. The model may be overfitting the data which could be a pitfall. Due to this reason we have discontinued use of this model 
+RandonForest Regression model is a acceptable choice as this model has the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. May help address the issue of overfitting with the 2nd order polynomial and may accomodate and outliers in our dataset.  
+
+5. Description of accuracy scores
+
+For those cases where we have employed the Linear Regression Model we have used R-square as a metric for accuracy. We chose 3 countries a models for Linear Regression with R-square values of 0.91 for the best fitted dataset.
+For cases where we employed RandomForest Regression we used RMSE and mean relative error as an indicator of accuracy. Currently, the mean relative error for the entire dataset is ~11%. 
 
 
 ## Dashboard
@@ -109,4 +121,3 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 
 ### Tasks Completed
-To view what tasks were completed for the week, please refer to [task_completed_list](task_completed_list.docx)
