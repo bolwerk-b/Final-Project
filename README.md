@@ -87,7 +87,7 @@ The purpose of this section is to provide insight into the dashboard creation pr
 
 The dashboard will include utilizing Tableau Public.
 
-[Tableau](/dashboard/Tableau_Logo.png)
+![Tableau](/dashboard/Tableau_Logo.png)
 
 **1. Create the Storyboard**
 
@@ -97,15 +97,15 @@ Once our team determined our plan, we created a [Storyboard Framework](https://d
 
 In Tableau, we started with generating charts to show Burger Price over time sorted by country as well as region.
 
-[Burger Price by year - Country](/dashboard/avg-burger-price-by-year-country.png)
+![Burger Price by year - Country](/dashboard/avg-burger-price-by-year-country.png)
 
-[Burger Price by year - Region](/dashboard/avg-burger-price-by-year-region.png)
+![Burger Price by year - Region](/dashboard/avg-burger-price-by-year-region.png)
 
-[World Burger Average Prices 2000 vs 2016](/dashboard/burger-price-dashboard.png)
+![World Burger Average Prices 2000 vs 2016](/dashboard/burger-price-dashboard.png)
 
 **3. The Dashboard**
 
-[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+![Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ### Tasks Completed
