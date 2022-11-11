@@ -1,0 +1,29 @@
+BigmacPrice
+-
+date date
+currency_code varchar
+name varchar pk FK >- continents2.name
+local_price int
+dollar_ex int
+dollar_price int
+
+continents2
+-
+name varchar pk
+alpha-2 varchar
+alpha-3 varchar
+country-code int FK >- gdp.year
+iso_3166-2 varchar
+region varchar
+sub-region varchar
+intermediae-region varchar
+region-code int
+sub-region-code int
+intermediate-region-code int
+
+gdp
+-
+name varchar pk FK >- continents2.name
+country-code varchar
+year pk date
+value int
