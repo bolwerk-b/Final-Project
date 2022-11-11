@@ -63,7 +63,7 @@ Using the finalized dataset we chose the GDP as the independant feature and doll
 
 Feature engineering & decision-making process: 
 
-We converted the GDP column into log10(GDP) as the raw values of GDP ranged from several 100 billion to several trillion USD. Converting into log10 makes the data more manageable. However, we do intent to keep the raw values of GDP through our preliminary round investigation. Other numerical features such as gdp_growth, GDP_Per_Capita, and year. Feature that were strings such as geographical region and geographical sub_region were dropped for RandomForest Regression analysis.
+We converted the GDP column into log10(GDP) as the raw values of GDP ranged from several 100 billion to several trillion USD. Converting into log10 makes the data more manageable. However, we do intent to keep the raw values of GDP through our preliminary round investigation. Other numerical features such as gdp_growth, GDP_Per_Capita, and year were retained for RandomForest Regression. Feature that were strings such as geographical region and geographical sub_region were dropped for RandomForest Regression analysis.
 
 We have also split the dataset into subset by regions and further sub-divided the regions into countries. Cursory investigation indicated that two different regresion models can be applied to different subset of the  based on accuracy. 
 
