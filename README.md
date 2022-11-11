@@ -121,3 +121,4 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 
 ### Tasks Completed
+To view what tasks were completed for the week, please refer to [task_completed_list](task_completed_list.docx)
