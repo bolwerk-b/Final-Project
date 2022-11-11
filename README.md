@@ -47,7 +47,7 @@ After loading our data into pgAdmin, we were able to use SQL to link our data to
 
 ### Machine Learning
 The final Machine Learning code is included in the "machine learning" folder
-
+[Machine_Learning_Final](https://github.com/bolwerk-b/Final-Project/blob/digamber-code/machine%20learning/Machine_Learning_models-final.ipynb)
 
 
 
