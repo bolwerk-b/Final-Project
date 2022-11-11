@@ -2,7 +2,7 @@
 
 **Presentation:** <a href= "https://docs.google.com/presentation/d/1cd-4GkkITFEI98uPthiW-l5D1tL2eT2MpLtqE6v5fKk/edit?usp=sharing">Here is our final presentation.</a>
 
-### Purpose Of The Project:
+## Purpose Of The Project:
 The purpose of this project is to create an overview of the cost of a big mac from McDonalds and match that data against annual GDP of Nations to see if there is a correlation. The project will consist of two elements:
 
 1. Regional Dashboard: Dashboard will provide a summary of each nations cost of a big mac vs. GDP.
@@ -37,7 +37,7 @@ Used to track the cost of the Big Mac in each country over time.
 Used to correlate contries to their region/continent.
 
 
-### Database
+## Database
 We created a local database application to store our data utilizing pgAdmin, SQL, and Python.
 
 After loading our data into pgAdmin, we were able to use SQL to link our data to our local database.
@@ -84,7 +84,7 @@ For those cases where we have employed the Linear Regression Model we have used 
 For cases where we employed RandomForest Regression we used RMSE and mean relative error as an indicator of accuracy. Currently, the mean relative error for the entire dataset is ~11%. 
 
 
-### Dashboard
+## Dashboard
 
 In our Dashboard we will be highlighting Two Key Items:
 1. Country Big Mac price(by Year)
@@ -117,7 +117,7 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 **3. The Dashboard**
 
-![Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ### Tasks Completed
