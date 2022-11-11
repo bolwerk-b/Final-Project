@@ -20,7 +20,7 @@ which region has the lowest cost increase?
 
 How does the price correlate with the top and bottom 50 GDP’s?
 
-### Sources:
+### Data Sources:
 [GDP Data (1960-2016)](https://www.kaggle.com/datasets/jonscheaffer/worldwide-gdp-history-19602016)
 [GDP Data (1960-2020)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
 
@@ -34,8 +34,6 @@ Used to track the cost of the Big Mac in each country over time.
 
 Used to correlate contries to their region/continent.
 
-### Communications
-All communications for this project were done via Slack and Zoom.
 
 ### Database
 We created a local database application to store our data utilizing pgAdmin, SQL, and Python.
@@ -80,7 +78,35 @@ In our Dashboard we will be highlighting Two Key Items:
 1. Country Big Mac price(by Year)
 2. Country GDP (by Year)
 
-Dashboard outline: [storyboard](https://docs.google.com/presentation/d/1OWhGaB8OzmPcQ8QowJzmXAlEXA2OyeFz4E1aONp65aU/edit?usp=sharing)
+The purpose of this section is to provide insight into the dashboard creation process:
+- Tool selection and storyboarding
+- Analyze our data using data visualization
+- Create the dashboard
+
+### Process of Creating The Dashboard
+
+The dashboard will include utilizing Tableau Public.
+
+[Tableau](/dashboard/Tableau_Logo.png)
+
+**1. Create the Storyboard**
+
+Once our team determined our plan, we created a [Storyboard Framework](https://docs.google.com/presentation/d/1OWhGaB8OzmPcQ8QowJzmXAlEXA2OyeFz4E1aONp65aU/edit?usp=sharingDashboard).
+
+**2. Creating The Dashboard**
+
+In Tableau, we started with generating charts to show Burger Price over time sorted by country as well as region.
+
+[Burger Price by year - Country](/dashboard/avg-burger-price-by-year-country.png)
+
+[Burger Price by year - Region](/dashboard/avg-burger-price-by-year-region.png)
+
+[World Burger Average Prices 2000 vs 2016](/dashboard/burger-price-dashboard.png)
+
+**3. The Dashboard**
+
+[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 
 ### Tasks Completed
 To view what tasks were completed for the week, please refer to [task_completed_list](task_completed_list.docx)
