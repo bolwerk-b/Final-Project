@@ -1,6 +1,6 @@
 # Final-Project
 
-### Purpose Of The Project:
+## Purpose Of The Project:
 The purpose of this project is to create an overview of the cost of a big mac from McDonalds and match that data against annual GDP of Nations to see if there is a correlation. The project will consist of two elements:
 
 1. Regional Dashboard: Dashboard will provide a summary of each nations cost of a big mac vs. GDP.
@@ -35,7 +35,7 @@ Used to track the cost of the Big Mac in each country over time.
 Used to correlate contries to their region/continent.
 
 
-### Database
+## Database
 We created a local database application to store our data utilizing pgAdmin, SQL, and Python.
 
 After loading our data into pgAdmin, we were able to use SQL to link our data to our local database.
@@ -43,7 +43,7 @@ After loading our data into pgAdmin, we were able to use SQL to link our data to
 ![price](https://user-images.githubusercontent.com/107373721/200097569-1b15c384-9c29-4f5b-82f1-2727b16f0b56.png)
 
 
-### Machine Learning
+## Machine Learning
 These two files have a preliminary code that uses our database. The first file uses raw GDP and the second uses log10(GDP) as the independant variable 
 
 [ML code using raw GDP](https://github.com/bolwerk-b/Final-Project/blob/main/machine%20learning/Machine_Learning_three_regression_models-using_raw_GDP.ipynb)
@@ -72,7 +72,7 @@ We have also considered 2nd order polynomial, and this may be a slightly better 
 Another consideration is the RandonForest Regression model. This model may have the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. May help address the issue of overfitting with the 2nd order polynomial and may accomodate and outliers in our dataset.  
 
 
-### Dashboard
+## Dashboard
 
 In our Dashboard we will be highlighting Two Key Items:
 1. Country Big Mac price(by Year)
@@ -105,7 +105,7 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 **3. The Dashboard**
 
-![Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ### Tasks Completed
