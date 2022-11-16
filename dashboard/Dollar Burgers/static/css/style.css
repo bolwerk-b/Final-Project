@@ -1,0 +1,8 @@
+.img-size {
+    background-image: url("../images/burgers.jpg");
+    background-size: 100% 100%;
+    min-height: 638px;
+    min-width: 100%;
+    text-align: center;
+}
+
