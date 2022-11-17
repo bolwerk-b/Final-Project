@@ -37,7 +37,7 @@ Used to correlate countries to their region/continent.
 
 
 ## Database
-We created a local database application to store our data utilizing pgAdmin, SQL, and Python.
+We created a local database application to store our data utilizing pgAdmin, SQL, and Python
 
 After loading our data into pgAdmin, we were able to use SQL to link our data to our local database.
 
