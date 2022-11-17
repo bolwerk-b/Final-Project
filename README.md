@@ -130,5 +130,5 @@ Lastly we created our web application to make the dashboard mobile-responsive an
 ### Individual Branches
 - Ben Bolwerk's Branch Name: ben-code
 - Digamber Rane's Branch Name: digamber-code
-- Lydia Dingess's Brnach Name: lydia-code
+- Lydia Dingess's Branch Name: lydia-code
 - Kelsey Closson's Branch Name: kelsey-code
