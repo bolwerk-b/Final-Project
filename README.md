@@ -10,7 +10,7 @@ The purpose of this project is to create an overview of the cost of a big mac fr
 2. Correlation model: the model will provide an analysis of whether the increase of gdp and the increase of the cost of a big mac are correlated.
 
 Questions To Answer
-How does the price of BigMac correlate with the GDP (worldwide) over time (2000-2021)?
+How does the price of BigMac correlate with the GDP (worldwide) over time (2000-2016)?
 
 which country(top 5) have the largest cost increase?
 
@@ -102,10 +102,6 @@ In our Dashboard we will be highlighting Two Key Items:
 2. Country GDP (by Year)
 
 ### Process of Creating The Dashboard
-
-The dashboard will include utilizing Tableau Public.
-
-![Tableau](/dashboard/Tableau_Logo.png)
 
 **1. Create the Storyboard**
 
