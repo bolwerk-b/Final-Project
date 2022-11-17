@@ -44,6 +44,17 @@ After loading our data into pgAdmin, we were able to use SQL to link our data to
 
 ![price](https://user-images.githubusercontent.com/107373721/200097569-1b15c384-9c29-4f5b-82f1-2727b16f0b56.png)
 
+## Data Cleaning
+
+After planning how we wanted our data to link together, our team worked on cleaning our datasets to create the final dataframe needed for this project. The data cleaning process and final CSV files are located in the [Final_Project_resources folder](/Final-Project/Final_Project_Resources/)
+
+Our team utilized Pandas to clean the data, merge dataframes, reformat the columns and the data.
+
+![Data Cleaning](/Final-Project/Final_Project_Resources/data_cleaning.jpg)
+
+The Final File we used for our analysis and Machine Learning is:
+ - [Final.csv](/Final-Project/Final_Project_Resources/final.csv)
+
 
 ### Machine Learning
 The final Machine Learning code is included in the "machine learning" folder
@@ -90,11 +101,6 @@ In our Dashboard we will be highlighting Two Key Items:
 1. Country Big Mac price(by Year)
 2. Country GDP (by Year)
 
-The purpose of this section is to provide insight into the dashboard creation process:
-- Tool selection and storyboarding
-- Analyze our data using data visualization
-- Create the dashboard
-
 ### Process of Creating The Dashboard
 
 The dashboard will include utilizing Tableau Public.
@@ -118,7 +124,4 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 **3. The Dashboard**
 
 [Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
-
-### Tasks Completed
-To view what tasks were completed for the week, please refer to [task_completed_list](task_completed_list.docx)
+![Tableau Dashboard](/Final-Project/dashboard/tableau-dashboard.jpg)
