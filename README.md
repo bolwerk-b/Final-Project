@@ -91,7 +91,7 @@ RandonForest Regression model is a acceptable choice as this model has the capac
 5. Description of accuracy scores
 
 For those cases where we have employed the Linear Regression Model we have used R-square as a metric for accuracy. We chose 3 countries a models for Linear Regression with R-square values of 0.91 for the best fitted dataset.
-For cases where we employed RandomForest Regression we used RMSE and mean relative error as an indicator of accuracy. Currently, the mean relative error for the entire dataset is ~11%. 
+For cases where we employed RandomForest Regression we used R-squared, RMSE and mean relative error as an indicator of accuracy. Currently, the mean relative error for the entire dataset is ~11%. 
 
 
 ## Dashboard
