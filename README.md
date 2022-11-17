@@ -118,7 +118,7 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 **3. The Dashboard**
 
-[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/BurgervsGDPDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Tableau Dashboard](/dashboard/tableau-dashboard.jpg)
 
 **4. Web Application**
