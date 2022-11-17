@@ -24,9 +24,8 @@ which region has the lowest cost increase?
 
 ### Data Sources:
 [GDP Data (1960-2016)](https://www.kaggle.com/datasets/jonscheaffer/worldwide-gdp-history-19602016)
-[GDP Data (1960-2020)](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
 
-Used to track historically GDP of Nations.
+Used to track GDP of Nations historically.
 
 [Big Mac Data(2000-2022)](https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice?select=BigmacPrice.csv)
 
@@ -34,7 +33,7 @@ Used to track the cost of the Big Mac in each country over time.
 
 [Region(continent) Data](https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region)
 
-Used to correlate contries to their region/continent.
+Used to correlate countries to their region/continent.
 
 
 ## Database
@@ -123,7 +122,7 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 **4. Web Application**
 
-Lastly we created our web application to make  the dashboard mobile-responsive and user-friendly.
+Lastly we created our web application to make the dashboard mobile-responsive and more user-friendly.
 ![Dashboard Web App](/dashboard/dashboard-app.jpg)
 
 ## Github
