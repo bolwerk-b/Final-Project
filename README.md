@@ -9,7 +9,8 @@ The purpose of this project is to create an overview of the cost of a big mac fr
 
 2. Correlation model: the model will provide an analysis of whether the increase of gdp and the increase of the cost of a big mac are correlated.
 
-Questions To Answer
+Questions To Answer:
+
 How does the price of BigMac correlate with the GDP (worldwide) over time (2000-2016)?
 
 which country(top 5) have the largest cost increase?
@@ -20,7 +21,6 @@ which region has the highest cost increase?
 
 which region has the lowest cost increase? 
 
-How does the price correlate with the top and bottom 50 GDP’s?
 
 ### Data Sources:
 [GDP Data (1960-2016)](https://www.kaggle.com/datasets/jonscheaffer/worldwide-gdp-history-19602016)
@@ -60,7 +60,6 @@ The Final File we used for our analysis and Machine Learning is:
 The final Machine Learning code is included in the "machine learning" folder
 
 [Machine_Learning_Final](https://github.com/bolwerk-b/Final-Project/blob/digamber-code/machine%20learning/Machine_Learning_models-final.ipynb)
-
 
 
 1. Description of preliminary data preprocessing.
@@ -121,3 +120,16 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 
 [Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ![Tableau Dashboard](/dashboard/tableau-dashboard.jpg)
+
+**4. Web Application**
+
+Lastly we created our web application to make  the dashboard mobile-responsive and user-friendly.
+![Dashboard Web App](/dashboard/dashboard-app.jpg)
+
+## Github
+
+### Individual Branches
+- Ben Bolwerk's Branch Name: ben-code
+- Digamber Rane's Branch Name: digamber-code
+- Lydia Dingess's Brnach Name: lydia-code
+- Kelsey Closson's Branch Name: kelsey-code
