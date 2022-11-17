@@ -1,11 +1,11 @@
 .img-size {
-    /* background-image: url("../images/burgers.jpg"); */
-    background-size: 100% 100%;
-    min-height: 638px;
+    background-image: url("../images/burgers_2.png");
+    background-repeat-y: repeat;
+    min-height: 400px;
     min-width: 100%;
     text-align: center;
 }
 
-.burgers-img {
-    width: 100%;
+h1 {
+    font-size: 3.5rem;
 }
