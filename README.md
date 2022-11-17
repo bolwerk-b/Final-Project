@@ -46,14 +46,14 @@ After loading our data into pgAdmin, we were able to use SQL to link our data to
 
 ## Data Cleaning
 
-After planning how we wanted our data to link together, our team worked on cleaning our datasets to create the final dataframe needed for this project. The data cleaning process and final CSV files are located in the [Final_Project_resources folder](/Final-Project/Final_Project_Resources/)
+After planning how we wanted our data to link together, our team worked on cleaning our datasets to create the final dataframe needed for this project. The data cleaning process and final CSV files are located in the [Final_Project_resources folder](/Final_Project_Resources/)
 
 Our team utilized Pandas to clean the data, merge dataframes, reformat the columns and the data.
 
-![Data Cleaning](/Final-Project/Final_Project_Resources/data_cleaning.jpg)
+![Data Cleaning](/Final_Project_Resources/data_cleaning.jpg)
 
 The Final File we used for our analysis and Machine Learning is:
- - [Final.csv](/Final-Project/Final_Project_Resources/final.csv)
+ - [Final.csv](/Final_Project_Resources/final.csv)
 
 
 ### Machine Learning
@@ -124,4 +124,4 @@ In Tableau, we started with generating charts to show Burger Price over time sor
 **3. The Dashboard**
 
 [Project Dashboard](https://public.tableau.com/views/BigMacPricesvsCountryGDPDashboard/avgcontrypricebyyear2016bar?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-![Tableau Dashboard](/Final-Project/dashboard/tableau-dashboard.jpg)
+![Tableau Dashboard](/dashboard/tableau-dashboard.jpg)
