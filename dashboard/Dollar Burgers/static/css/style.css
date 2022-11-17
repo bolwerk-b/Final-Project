@@ -9,3 +9,7 @@
 h1 {
     font-size: 3.5rem;
 }
+
+.center {
+    margin: 25px auto;
+}
