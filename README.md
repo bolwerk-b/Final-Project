@@ -83,9 +83,9 @@ We used the Sklearn train_test_split function to split the data 80:20 for traini
 
 4. Explanation of model choice, including limitations and benefits
 
-For machine learning Linear Regression would be our first choice as, both the target and the independant feature are continous. This is the simplest model and a good first choice. However there is a possibility that our gobal dataset may not be ideal for a linear analysis.
-We experimented with 2nd order polynomial, and this would have been a slightly better choice if the BigMac price and GDP's do not follow a linear trend. The model may be overfitting the data which could be a pitfall. Due to this reason we have discontinued use of this model 
-RandonForest Regression model is a acceptable choice as this model has the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. May help address the issue of overfitting with the 2nd order polynomial and may accomodate and outliers in our dataset.  
+For machine learning Linear Regression would be our first choice as, both the target and the independant feature are continous. This is the simplest model and a good first choice. However there is a possibility that our global dataset may not be ideal for a linear analysis.
+We experimented with 2nd order polynomial, and this would have been a slightly better choice if the BigMac price and GDP's do not follow a linear trend. The model may be overfitting the data which could be a pitfall. Due to this reason we have discontinued use of this model.
+RandomForest Regression model is an acceptable choice, as this model has the capacity to accomodate our dataset. We can include multiple features to analyze the dataset. This may help address the issue of overfitting with the 2nd order polynomial and may accomodate any outliers in our dataset.  
 
 5. Description of accuracy scores
 
